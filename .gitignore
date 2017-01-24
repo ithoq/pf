@@ -1,0 +1,12 @@
+.buildpath
+*.log
+*.swp
+skimg/*
+dmsif/dt/*.xml
+dmsif/dt/*.log
+dmsif/dt/lasttrans/*
+dmsif/cdk/*.xml
+dmsif/cdk/*.log
+dmsif/cdk/lasttrans/*
+trans_num.txt
+*.json

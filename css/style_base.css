@@ -1,0 +1,212 @@
+@CHARSET "US-ASCII";
+/*
+Project: Autosked makeappt
+Contains our Bootstrap overrides and additions
+*/
+
+
+/* General */
+/* from http://sixrevisions.com/css/responsive-background-image/ */
+
+/* Scrolling window */
+.scroller {
+	border: 2px solid #ccc;
+	width: 100%;
+	height: 130px;
+	overflow-y: scroll;
+}
+
+/* TODO remove if not used
+body {
+	background: url("../images/bg_140.jpg") center center no-repeat fixed;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 6px
+}
+
+.form-group {
+	margin-top: 6px;
+}
+	
+h3 span {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	padding: 6px;
+}
+
+.form-horizontal .control-label {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	padding: 6px;
+	margin-bottom: 5px;
+}
+*/
+
+.op-checkbox {
+	padding-left: 2px !important;
+	font-weight: normal;
+}
+
+.op-input {
+	margin-right: 4px !important;	
+}
+
+.top_50 {
+	margin-top: 50px;
+}
+
+.top_40 {
+	margin-top: 40px;
+}
+
+.top_30 {
+	margin-top: 30px;
+}
+
+.top_20 {
+	margin-top: 20px;
+}
+
+.top_10 {
+	margin-top: 10px;
+}
+
+/* Remove resize handle at bottom right */
+textarea {
+   resize: none;
+}
+
+.glyph_button {
+	font-size: 20px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.explanation {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.splash_bg {
+	
+}
+
+/* TODO not working. For form validation */
+/* Color of invalid field */
+.has-error .control-label, .has-error .help-block, .has-error .form-control-feedback
+	{
+	color: #a94442;
+}
+
+/* Color of valid field */
+.has-success .control-label, .has-success .help-block, .has-success .form-control-feedback
+	{
+	color: #3c763d;
+}
+
+/* Page: Work needed */
+.section_box {
+	valign: top;
+	background-color: #469302;
+	border-radius: 20px;
+	color: white;
+	margin-bottom: 6px;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+
+.checkbox_list ul {
+	margin: 0;
+	list-style: none;
+	float: left;
+	text-align: left;
+}
+
+.time_notice {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #f1f1f1;
+}
+
+.sched_container {
+	overflow-y: auto;
+	height: 290px;
+}
+
+/* Page: Schedule header and slot states */
+.sched_header {
+	background-color: #469302;
+	color: white;
+	font-family: TradeGothic, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+
+.schedule_slot {
+	font-family: TradeGothic, Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-valign: center;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+
+.schedule_slot_avail {
+	font-size: 12px;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.schedule_slot_closed {
+	font-size: 12px;
+	color: white;
+	background-color: black;
+}
+
+.schedule_slot_past {
+	font-size: 12px;
+	color: white;
+	background-color: light-gray;
+}
+
+.schedule_slot_taken {
+	font-size: 12px;
+	color: black;
+	background-color: #eeeeee;
+}
+
+.schedule_slot_selected {
+	font-size: 12px;
+	background-color: red;
+	color: white;
+}
+
+/* Hint text styles for different browsers - Not used at moment */
+::-webkit-input-placeholder {
+	color: light-grey !important;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: light-grey !important;
+	font-style: italic;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	color: light-grey !important;
+	font-style: italic;
+}
+
+:-ms-input-placeholder {
+	color: light-grey !important;
+	font-style: italic;
+}
